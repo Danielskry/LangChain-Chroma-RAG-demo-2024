@@ -95,13 +95,6 @@ class RetrieverService:
         Raises:
             WebSocketDisconnect: If the WebSocket connection is disconnected unexpectedly.
         """
-        retrieval_qa = RetrievalQA.from_chain_type(
-            llm=self.LLM,
-            chain_type="stuff",
-            retriever=retriever,
-            return_source_documents=True,
-            chain_type_kwargs={"prompt": prompt_template, 'verbose': True}
-        )
         
         rag_chain_from_docs = (
             prompt_template
