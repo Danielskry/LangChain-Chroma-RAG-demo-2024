@@ -1,0 +1,76 @@
+{
+    "maintenance_log_001": [
+        {
+            "id": 1,
+            "date": "2023-01-15",
+            "machine": "CNC Machine 01",
+            "issue": "Overheating",
+            "actions_taken": "Checked coolant levels, cleaned fans, replaced coolant.",
+            "technician": "John Doe",
+            "notes": "Issue resolved after coolant replacement."
+        },
+        {
+            "id": 2,
+            "date": "2023-02-20",
+            "machine": "Hydraulic Pump 03",
+            "issue": "Leakage",
+            "actions_taken": "Replaced seals, tightened fittings.",
+            "technician": "Jane Smith",
+            "notes": "Leak stopped after replacing seals."
+        }
+    ],
+    "technical_manuals": [
+        {
+            "id": 1,
+            "machine": "CNC Machine 01",
+            "section": "Thermal Management",
+            "content": "Ensure coolant levels are adequate. Inspect fans and vents for debris. Regularly replace coolant as per maintenance schedule."
+        },
+        {
+            "id": 2,
+            "machine": "Hydraulic Pump 03",
+            "section": "Seal Replacement",
+            "content": "To replace seals, first depressurize the system. Remove the old seals using appropriate tools. Install new seals and ensure they are properly seated. Re-pressurize and check for leaks."
+        }
+    ],
+    "troubleshooting_guides": [
+        {
+            "id": 1,
+            "machine": "CNC Machine 01",
+            "issue": "Overheating",
+            "steps": [
+                "Check coolant levels.",
+                "Inspect coolant flow for blockages.",
+                "Verify cooling fans are operational.",
+                "Refer to technical manual section on 'Thermal Management'."
+            ]
+        },
+        {
+            "id": 2,
+            "machine": "Hydraulic Pump 03",
+            "issue": "Leakage",
+            "steps": [
+                "Identify the source of the leak.",
+                "Check seals and fittings.",
+                "Replace damaged seals.",
+                "Tighten all fittings."
+            ]
+        }
+    ],
+    "parts_and_repairs": [
+        {
+            "id": 1,
+            "machine": "CNC Machine 01",
+            "part": "Coolant",
+            "date_replaced": "2023-01-15",
+            "technician": "John Doe"
+        },
+        {
+            "id": 2,
+            "machine": "Hydraulic Pump 03",
+            "part": "Seals",
+            "date_replaced": "2023-02-20",
+            "technician": "Jane Smith"
+        }
+    ]
+}

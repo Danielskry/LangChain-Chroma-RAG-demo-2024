@@ -1,0 +1,76 @@
+{
+    "maintenance_log_005": [
+        {
+            "id": 11,
+            "date": "2023-11-02",
+            "machine": "Robotic Arm 11",
+            "issue": "Joint movement lag",
+            "actions_taken": "Recalibrated control system, lubricated joints.",
+            "technician": "Anna Mitchell",
+            "notes": "Smooth operation restored, no lag detected post-maintenance."
+        },
+        {
+            "id": 12,
+            "date": "2023-11-18",
+            "machine": "Vacuum Pump 03",
+            "issue": "Reduced suction power",
+            "actions_taken": "Replaced worn-out seals, cleaned intake filters.",
+            "technician": "David Lee",
+            "notes": "Suction power returned to optimal levels, filters clean."
+        }
+    ],
+    "technical_manuals": [
+        {
+            "id": 11,
+            "machine": "Robotic Arm 11",
+            "section": "Joint Calibration",
+            "content": "Regularly calibrate the control system to ensure precise joint movements. Lubricate joints according to the schedule."
+        },
+        {
+            "id": 12,
+            "machine": "Vacuum Pump 03",
+            "section": "Suction Maintenance",
+            "content": "Inspect and replace seals as needed. Clean intake filters to maintain suction efficiency."
+        }
+    ],
+    "troubleshooting_guides": [
+        {
+            "id": 11,
+            "machine": "Robotic Arm 11",
+            "issue": "Joint movement lag",
+            "steps": [
+                "Check for any control system errors.",
+                "Recalibrate the joints using the control software.",
+                "Lubricate all moving parts to reduce friction.",
+                "Refer to the technical manual section on 'Joint Calibration'."
+            ]
+        },
+        {
+            "id": 12,
+            "machine": "Vacuum Pump 03",
+            "issue": "Reduced suction power",
+            "steps": [
+                "Inspect seals for wear and replace if necessary.",
+                "Clean or replace intake filters.",
+                "Check for any blockages in the system.",
+                "Refer to the technical manual section on 'Suction Maintenance'."
+            ]
+        }
+    ],
+    "parts_and_repairs": [
+        {
+            "id": 11,
+            "machine": "Robotic Arm 11",
+            "part": "Lubricant",
+            "date_replaced": "2023-11-02",
+            "technician": "Anna Mitchell"
+        },
+        {
+            "id": 12,
+            "machine": "Vacuum Pump 03",
+            "part": "Seals",
+            "date_replaced": "2023-11-18",
+            "technician": "David Lee"
+        }
+    ]
+}

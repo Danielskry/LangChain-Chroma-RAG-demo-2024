@@ -1,0 +1,76 @@
+{
+    "maintenance_log_004": [
+        {
+            "id": 9,
+            "date": "2023-09-15",
+            "machine": "Laser Engraver 07",
+            "issue": "Beam intensity fluctuation",
+            "actions_taken": "Adjusted power settings, replaced focusing lens.",
+            "technician": "Sophia Turner",
+            "notes": "Engraving consistency restored, lens calibrated."
+        },
+        {
+            "id": 10,
+            "date": "2023-10-22",
+            "machine": "Industrial Mixer 02",
+            "issue": "Motor overheating",
+            "actions_taken": "Cleaned ventilation ducts, replaced cooling fan.",
+            "technician": "James Smith",
+            "notes": "Temperature stabilized, motor running smoothly."
+        }
+    ],
+    "technical_manuals": [
+        {
+            "id": 9,
+            "machine": "Laser Engraver 07",
+            "section": "Beam Adjustment",
+            "content": "Ensure proper alignment and power settings for consistent beam intensity. Replace the focusing lens periodically."
+        },
+        {
+            "id": 10,
+            "machine": "Industrial Mixer 02",
+            "section": "Cooling System Maintenance",
+            "content": "Regularly clean ventilation ducts and check the cooling fan. Replace the fan as needed to prevent overheating."
+        }
+    ],
+    "troubleshooting_guides": [
+        {
+            "id": 9,
+            "machine": "Laser Engraver 07",
+            "issue": "Beam intensity fluctuation",
+            "steps": [
+                "Check power settings and adjust if necessary.",
+                "Inspect and clean the focusing lens.",
+                "Replace the lens if the issue persists.",
+                "Refer to the technical manual section on 'Beam Adjustment'."
+            ]
+        },
+        {
+            "id": 10,
+            "machine": "Industrial Mixer 02",
+            "issue": "Motor overheating",
+            "steps": [
+                "Ensure ventilation ducts are free of obstructions.",
+                "Clean or replace the cooling fan.",
+                "Monitor motor temperature during operation.",
+                "Refer to the technical manual section on 'Cooling System Maintenance'."
+            ]
+        }
+    ],
+    "parts_and_repairs": [
+        {
+            "id": 9,
+            "machine": "Laser Engraver 07",
+            "part": "Focusing Lens",
+            "date_replaced": "2023-09-15",
+            "technician": "Sophia Turner"
+        },
+        {
+            "id": 10,
+            "machine": "Industrial Mixer 02",
+            "part": "Cooling Fan",
+            "date_replaced": "2023-10-22",
+            "technician": "James Smith"
+        }
+    ]
+}

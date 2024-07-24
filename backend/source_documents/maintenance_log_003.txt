@@ -1,0 +1,76 @@
+{
+    "maintenance_log_003": [
+        {
+            "id": 5,
+            "date": "2023-05-05",
+            "machine": "3D Printer 04",
+            "issue": "Nozzle clogging",
+            "actions_taken": "Cleaned nozzle, replaced filament.",
+            "technician": "Sarah Lee",
+            "notes": "Print quality improved after cleaning."
+        },
+        {
+            "id": 6,
+            "date": "2023-06-12",
+            "machine": "Air Compressor 06",
+            "issue": "Low pressure",
+            "actions_taken": "Checked for leaks, cleaned air filters, adjusted pressure settings.",
+            "technician": "Mark Wilson",
+            "notes": "Pressure stable after maintenance."
+        }
+    ],
+    "technical_manuals": [
+        {
+            "id": 5,
+            "machine": "3D Printer 04",
+            "section": "Nozzle Maintenance",
+            "content": "Regularly clean the nozzle to prevent clogs. Use compatible filaments to avoid material buildup."
+        },
+        {
+            "id": 6,
+            "machine": "Air Compressor 06",
+            "section": "Pressure Maintenance",
+            "content": "Ensure air filters are clean. Regularly check for leaks and maintain proper pressure settings."
+        }
+    ],
+    "troubleshooting_guides": [
+        {
+            "id": 5,
+            "machine": "3D Printer 04",
+            "issue": "Nozzle clogging",
+            "steps": [
+                "Check for filament blockages.",
+                "Clean the nozzle using appropriate tools.",
+                "Replace filament if necessary.",
+                "Refer to technical manual section on 'Nozzle Maintenance'."
+            ]
+        },
+        {
+            "id": 6,
+            "machine": "Air Compressor 06",
+            "issue": "Low pressure",
+            "steps": [
+                "Inspect for air leaks.",
+                "Clean or replace air filters.",
+                "Adjust pressure settings according to the manual.",
+                "Refer to technical manual section on 'Pressure Maintenance'."
+            ]
+        }
+    ],
+    "parts_and_repairs": [
+        {
+            "id": 5,
+            "machine": "3D Printer 04",
+            "part": "Filament",
+            "date_replaced": "2023-05-05",
+            "technician": "Sarah Lee"
+        },
+        {
+            "id": 6,
+            "machine": "Air Compressor 06",
+            "part": "Air Filters",
+            "date_replaced": "2023-06-12",
+            "technician": "Mark Wilson"
+        }
+    ]
+}

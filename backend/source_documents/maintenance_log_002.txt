@@ -1,0 +1,76 @@
+{
+    "maintenance_log_002": [
+        {
+            "id": 3,
+            "date": "2023-03-10",
+            "machine": "Laser Cutter 02",
+            "issue": "Inconsistent cutting depth",
+            "actions_taken": "Calibrated laser intensity, cleaned lenses.",
+            "technician": "Mike Johnson",
+            "notes": "Cutting depth consistent after calibration."
+        },
+        {
+            "id": 4,
+            "date": "2023-04-18",
+            "machine": "Conveyor Belt 05",
+            "issue": "Belt slipping",
+            "actions_taken": "Adjusted tension, replaced worn rollers.",
+            "technician": "Emily Davis",
+            "notes": "Belt operates smoothly post-repair."
+        }
+    ],
+    "technical_manuals": [
+        {
+            "id": 3,
+            "machine": "Laser Cutter 02",
+            "section": "Laser Calibration",
+            "content": "Regularly calibrate the laser to maintain cutting accuracy. Ensure lenses are clean and free from obstructions."
+        },
+        {
+            "id": 4,
+            "machine": "Conveyor Belt 05",
+            "section": "Belt Tension Adjustment",
+            "content": "Check and adjust belt tension periodically. Replace rollers if they show signs of wear to prevent slippage."
+        }
+    ],
+    "troubleshooting_guides": [
+        {
+            "id": 3,
+            "machine": "Laser Cutter 02",
+            "issue": "Inconsistent cutting depth",
+            "steps": [
+                "Check laser calibration settings.",
+                "Clean and inspect lenses.",
+                "Ensure material is placed correctly.",
+                "Refer to technical manual section on 'Laser Calibration'."
+            ]
+        },
+        {
+            "id": 4,
+            "machine": "Conveyor Belt 05",
+            "issue": "Belt slipping",
+            "steps": [
+                "Inspect belt tension.",
+                "Check rollers for wear and replace if necessary.",
+                "Ensure motor alignment.",
+                "Refer to technical manual section on 'Belt Tension Adjustment'."
+            ]
+        }
+    ],
+    "parts_and_repairs": [
+        {
+            "id": 3,
+            "machine": "Laser Cutter 02",
+            "part": "Lenses",
+            "date_replaced": "2023-03-10",
+            "technician": "Mike Johnson"
+        },
+        {
+            "id": 4,
+            "machine": "Conveyor Belt 05",
+            "part": "Rollers",
+            "date_replaced": "2023-04-18",
+            "technician": "Emily Davis"
+        }
+    ]
+}
