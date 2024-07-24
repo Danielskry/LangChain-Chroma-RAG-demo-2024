@@ -4,7 +4,7 @@ This repository demonstrates a Retrieval-Augmented Generation (RAG) system using
 
 The screenshot below is based on synthetic data from the documents included in the solution. It is used to illustrate how it is possible to troubleshoot and analyze maintenance logs.
 
-![bilde](https://github.com/user-attachments/assets/049c6a59-ac7c-4cb5-91ae-2846242c0a68)
+![ezgif-1-bfac569373](https://github.com/user-attachments/assets/170bfbd0-81e7-4f1d-acf5-3321043ae2ed)
 
 ## Getting Started
 ### Prerequisites
